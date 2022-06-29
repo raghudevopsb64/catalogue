@@ -3,4 +3,3 @@
 env.COMPONENT="catalogue"
 env.APPTYPE="nodejs"
 ciPipeline()
-
