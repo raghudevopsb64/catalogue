@@ -1,0 +1,18 @@
+component:
+  name: catalogue
+  version: 4.0.0
+configMap:
+  create: yes
+  name: catalogue
+  data:
+    MONGO: true
+    MONGO_URL: "mongodb://mongodb:27017/catalogue"
+service:
+  containerPort: 8080
+resources:
+  limits:
+    cpu: 350m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
