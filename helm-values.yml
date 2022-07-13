@@ -5,7 +5,7 @@ configMap:
   create: yes
   name: catalogue
   data:
-    MONGO: true
+    MONGO: "true"
     MONGO_URL: "mongodb://mongodb:27017/catalogue"
 service:
   containerPort: 8080
